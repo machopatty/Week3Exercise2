@@ -1,0 +1,17 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Current Date Tag Lib Demo</short-name>
+
+    <!--Uri used to locate tag-->
+    <uri>http://metc.edu</uri>
+
+    <tag>
+        <name>myDate</name>
+        <tag-class>com.markkump.datetag.DateTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+
+
+</taglib>
