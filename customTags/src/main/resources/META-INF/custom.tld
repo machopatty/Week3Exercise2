@@ -1,0 +1,17 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Hello World Tag Lib Demo</short-name>
+
+    <!--Uri used to locate tag-->
+    <uri>http://matc.edu</uri>
+
+    <tag>
+        <name>Hello</name>
+        <tag-class>com.markkump.customtags.HelloWorldTag</tag-class>
+            <body-content>empty</body-content>
+    </tag>
+
+
+
+</taglib>
